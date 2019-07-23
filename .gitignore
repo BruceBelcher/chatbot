@@ -1,2 +1,27 @@
 ./node_modules
 ./variables.env
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+./react-bot/node_modules
+./react-bot/.pnp
+./react-bot/pnp.js
+
+# testing
+./react-bot/coverage
+
+# production
+./react-bot/build
+
+# misc
+./react-bot/DS_Store
+./react-bot/env.local
+./react-bot/env.development.local
+./react-bot/env.test.local
+./react-bot/env.production.local
+
+./react-bot/npm-debug.log*
+./react-bot/yarn-debug.log*
+./react-bot/yarn-error.log*
+
